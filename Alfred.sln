@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlfredApp", "Alfred\AlfredApp.csproj", "{1AF1B86A-08C9-4BA7-85D0-B9C5D3582421}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlfredApp", "AlfredApp\AlfredApp.csproj", "{1AF1B86A-08C9-4BA7-85D0-B9C5D3582421}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlfredESK", "AlfredESK\AlfredESK.csproj", "{A403B159-A873-44D6-8788-6441908FD4E8}"
 EndProject
