@@ -82,7 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AlfredESK\AlfredESK.csproj">
-      <Project>{a403b159-a873-44d6-8788-6441908fd4e8}</Project>
+      <Project>{9776c34d-59c5-48e0-b42f-d60d3cc62bbb}</Project>
       <Name>AlfredESK</Name>
     </ProjectReference>
   </ItemGroup>
