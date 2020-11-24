@@ -31,7 +31,7 @@ namespace AlfredApp
             {
                 lbxResults.Items.Add(result);
             }
-            MessageBox.Show("Test");
+            MessageBox.Show("Gökhan");
             // Test
         }
     }
