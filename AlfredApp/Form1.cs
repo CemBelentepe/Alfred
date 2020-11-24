@@ -31,6 +31,7 @@ namespace AlfredApp
             {
                 lbxResults.Items.Add(result);
             }
+            // test
         }
     }
 }
