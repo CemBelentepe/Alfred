@@ -110,7 +110,7 @@
             this.panel1.Controls.Add(this.ButEvoz);
             this.panel1.Controls.Add(this.ButKon);
             this.panel1.Location = new System.Drawing.Point(6, 79);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(248, 548);
             this.panel1.TabIndex = 0;
@@ -119,7 +119,7 @@
             // 
             this.Eks.Image = ((System.Drawing.Image)(resources.GetObject("Eks.Image")));
             this.Eks.Location = new System.Drawing.Point(0, 308);
-            this.Eks.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Eks.Margin = new System.Windows.Forms.Padding(2);
             this.Eks.Name = "Eks";
             this.Eks.Size = new System.Drawing.Size(60, 57);
             this.Eks.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -130,7 +130,7 @@
             // 
             this.Evoz.Image = ((System.Drawing.Image)(resources.GetObject("Evoz.Image")));
             this.Evoz.Location = new System.Drawing.Point(0, 246);
-            this.Evoz.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Evoz.Margin = new System.Windows.Forms.Padding(2);
             this.Evoz.Name = "Evoz";
             this.Evoz.Size = new System.Drawing.Size(60, 57);
             this.Evoz.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -141,7 +141,7 @@
             // 
             this.kon.Image = ((System.Drawing.Image)(resources.GetObject("kon.Image")));
             this.kon.Location = new System.Drawing.Point(0, 184);
-            this.kon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.kon.Margin = new System.Windows.Forms.Padding(2);
             this.kon.Name = "kon";
             this.kon.Size = new System.Drawing.Size(60, 57);
             this.kon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -153,7 +153,7 @@
             this.Nasıl.BackColor = System.Drawing.Color.DarkSlateGray;
             this.Nasıl.Image = ((System.Drawing.Image)(resources.GetObject("Nasıl.Image")));
             this.Nasıl.Location = new System.Drawing.Point(0, 55);
-            this.Nasıl.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Nasıl.Margin = new System.Windows.Forms.Padding(2);
             this.Nasıl.Name = "Nasıl";
             this.Nasıl.Size = new System.Drawing.Size(60, 57);
             this.Nasıl.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -168,7 +168,7 @@
             this.ButNasıl.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.ButNasıl.ForeColor = System.Drawing.Color.NavajoWhite;
             this.ButNasıl.Location = new System.Drawing.Point(58, 55);
-            this.ButNasıl.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ButNasıl.Margin = new System.Windows.Forms.Padding(2);
             this.ButNasıl.Name = "ButNasıl";
             this.ButNasıl.Size = new System.Drawing.Size(182, 57);
             this.ButNasıl.TabIndex = 12;
@@ -184,7 +184,7 @@
             this.ButEks.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.ButEks.ForeColor = System.Drawing.Color.NavajoWhite;
             this.ButEks.Location = new System.Drawing.Point(58, 308);
-            this.ButEks.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ButEks.Margin = new System.Windows.Forms.Padding(2);
             this.ButEks.Name = "ButEks";
             this.ButEks.Size = new System.Drawing.Size(182, 57);
             this.ButEks.TabIndex = 11;
@@ -200,7 +200,7 @@
             this.ButEvoz.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.ButEvoz.ForeColor = System.Drawing.Color.NavajoWhite;
             this.ButEvoz.Location = new System.Drawing.Point(58, 246);
-            this.ButEvoz.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ButEvoz.Margin = new System.Windows.Forms.Padding(2);
             this.ButEvoz.Name = "ButEvoz";
             this.ButEvoz.Size = new System.Drawing.Size(183, 57);
             this.ButEvoz.TabIndex = 10;
@@ -216,7 +216,7 @@
             this.ButKon.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.ButKon.ForeColor = System.Drawing.Color.NavajoWhite;
             this.ButKon.Location = new System.Drawing.Point(58, 184);
-            this.ButKon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ButKon.Margin = new System.Windows.Forms.Padding(2);
             this.ButKon.Name = "ButKon";
             this.ButKon.Size = new System.Drawing.Size(183, 57);
             this.ButKon.TabIndex = 9;
@@ -230,7 +230,7 @@
             this.panel2.Controls.Add(this.button3);
             this.panel2.Controls.Add(this.button2);
             this.panel2.Location = new System.Drawing.Point(922, 8);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(99, 52);
             this.panel2.TabIndex = 0;
@@ -240,7 +240,7 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
             this.button3.Location = new System.Drawing.Point(4, 2);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(44, 47);
             this.button3.TabIndex = 7;
@@ -251,7 +251,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.Location = new System.Drawing.Point(48, 1);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(45, 49);
             this.button2.TabIndex = 6;
@@ -262,7 +262,7 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.DarkSlateGray;
             this.panel3.Location = new System.Drawing.Point(-3, 66);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1033, 8);
             this.panel3.TabIndex = 0;
@@ -273,7 +273,7 @@
             this.panel4.Controls.Add(this.pictureBox2);
             this.panel4.Controls.Add(this.pictureBox1);
             this.panel4.Location = new System.Drawing.Point(258, -5);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(8, 642);
             this.panel4.TabIndex = 1;
@@ -281,7 +281,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(75, 41);
             this.pictureBox2.TabIndex = 1;
@@ -290,7 +290,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(75, 41);
             this.pictureBox1.TabIndex = 0;
@@ -300,7 +300,7 @@
             // 
             this.panel5.BackColor = System.Drawing.Color.DarkSlateGray;
             this.panel5.Location = new System.Drawing.Point(910, 0);
-            this.panel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel5.Margin = new System.Windows.Forms.Padding(2);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(8, 638);
             this.panel5.TabIndex = 2;
@@ -309,7 +309,7 @@
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(53, 16);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(34, 36);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -334,7 +334,7 @@
             this.panelny.Controls.Add(this.label3);
             this.panelny.Controls.Add(this.label2);
             this.panelny.Location = new System.Drawing.Point(309, 92);
-            this.panelny.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelny.Margin = new System.Windows.Forms.Padding(2);
             this.panelny.Name = "panelny";
             this.panelny.Size = new System.Drawing.Size(592, 515);
             this.panelny.TabIndex = 5;
@@ -371,7 +371,7 @@
             this.panelkb.Controls.Add(this.label5);
             this.panelkb.Controls.Add(this.label4);
             this.panelkb.Location = new System.Drawing.Point(284, 124);
-            this.panelkb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelkb.Margin = new System.Windows.Forms.Padding(2);
             this.panelkb.Name = "panelkb";
             this.panelkb.Size = new System.Drawing.Size(620, 429);
             this.panelkb.TabIndex = 3;
@@ -383,7 +383,7 @@
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox3.ForeColor = System.Drawing.Color.NavajoWhite;
             this.textBox3.Location = new System.Drawing.Point(304, 272);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(103, 32);
             this.textBox3.TabIndex = 6;
@@ -395,7 +395,7 @@
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox2.ForeColor = System.Drawing.Color.NavajoWhite;
             this.textBox2.Location = new System.Drawing.Point(304, 212);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(103, 32);
             this.textBox2.TabIndex = 5;
@@ -407,7 +407,7 @@
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox1.ForeColor = System.Drawing.Color.NavajoWhite;
             this.textBox1.Location = new System.Drawing.Point(304, 154);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(103, 32);
             this.textBox1.TabIndex = 4;
@@ -468,7 +468,7 @@
             this.paneleo.Controls.Add(this.labelmetrekare);
             this.paneleo.Controls.Add(this.label11);
             this.paneleo.Location = new System.Drawing.Point(293, 105);
-            this.paneleo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.paneleo.Margin = new System.Windows.Forms.Padding(2);
             this.paneleo.Name = "paneleo";
             this.paneleo.Size = new System.Drawing.Size(612, 412);
             this.paneleo.TabIndex = 7;
@@ -480,7 +480,7 @@
             this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox7.ForeColor = System.Drawing.Color.NavajoWhite;
             this.textBox7.Location = new System.Drawing.Point(330, 336);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(2);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(103, 32);
             this.textBox7.TabIndex = 8;
@@ -503,7 +503,7 @@
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox4.ForeColor = System.Drawing.Color.NavajoWhite;
             this.textBox4.Location = new System.Drawing.Point(330, 273);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(103, 32);
             this.textBox4.TabIndex = 6;
@@ -515,7 +515,7 @@
             this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox5.ForeColor = System.Drawing.Color.NavajoWhite;
             this.textBox5.Location = new System.Drawing.Point(330, 213);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(2);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(103, 32);
             this.textBox5.TabIndex = 5;
@@ -527,7 +527,7 @@
             this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox6.ForeColor = System.Drawing.Color.NavajoWhite;
             this.textBox6.Location = new System.Drawing.Point(330, 150);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(2);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(103, 32);
             this.textBox6.TabIndex = 4;
@@ -584,7 +584,7 @@
             this.panelam.Controls.Add(this.label15);
             this.panelam.Controls.Add(this.label16);
             this.panelam.Location = new System.Drawing.Point(271, 150);
-            this.panelam.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelam.Margin = new System.Windows.Forms.Padding(2);
             this.panelam.Name = "panelam";
             this.panelam.Size = new System.Drawing.Size(632, 476);
             this.panelam.TabIndex = 9;
@@ -594,7 +594,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.Location = new System.Drawing.Point(433, 267);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(94, 97);
             this.button1.TabIndex = 7;
@@ -608,7 +608,7 @@
             this.textBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox11.ForeColor = System.Drawing.Color.NavajoWhite;
             this.textBox11.Location = new System.Drawing.Point(443, 149);
-            this.textBox11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox11.Margin = new System.Windows.Forms.Padding(2);
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(123, 37);
             this.textBox11.TabIndex = 4;
@@ -652,7 +652,7 @@
             this.panelsonuc.Controls.Add(this.label12);
             this.panelsonuc.Controls.Add(this.label13);
             this.panelsonuc.Location = new System.Drawing.Point(323, 79);
-            this.panelsonuc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelsonuc.Margin = new System.Windows.Forms.Padding(2);
             this.panelsonuc.Name = "panelsonuc";
             this.panelsonuc.Size = new System.Drawing.Size(567, 515);
             this.panelsonuc.TabIndex = 6;
@@ -661,7 +661,7 @@
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(286, 98);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(80, 73);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -708,12 +708,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.NavajoWhite;
             this.ClientSize = new System.Drawing.Size(1028, 635);
-            this.Controls.Add(this.panelsonuc);
-            this.Controls.Add(this.label17);
             this.Controls.Add(this.panelny);
-            this.Controls.Add(this.panelam);
             this.Controls.Add(this.panelkb);
             this.Controls.Add(this.paneleo);
+            this.Controls.Add(this.panelsonuc);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.panelam);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel5);
@@ -723,7 +723,7 @@
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
