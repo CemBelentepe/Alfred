@@ -245,6 +245,7 @@
             this.button3.Size = new System.Drawing.Size(44, 47);
             this.button3.TabIndex = 7;
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -728,6 +729,9 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseUp);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Eks)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Evoz)).EndInit();
