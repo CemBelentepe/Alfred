@@ -19,6 +19,7 @@ namespace AlfredESK
             this.areaMax = areaMax;
         }
     }
+
     public struct SearchResult
     {
         public readonly string name;

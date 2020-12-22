@@ -7,11 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using AlfredESK;
 
 namespace ProjeArayuz1
 {
     public partial class Form1 : Form
     {
+        Alfred esk = new Alfred(Alfred.Website.Sahibinden);
+
+        private bool mouseDown;
+        private Point lastLocation;
+
         public Form1()
         {
             InitializeComponent();
@@ -80,6 +86,40 @@ namespace ProjeArayuz1
         private void button1_Click(object sender, EventArgs e)
         {
             panelsonuc.BringToFront();
+            int m2 = int.Parse(textBox6.Text);
+            String pos = textBox2.Text;
+            SearchInfo info = new SearchInfo(pos, (int)(m2 * 0.9), (int)(m2 * 1.1));
+            var results = esk.Search(info);
+
+            foreach (var res in results)
+            {
+                // Tabloya ekle;
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void Form1_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown = true;
+            lastLocation = e.Location;
+        }
+
+        private void Form1_MouseMove(object sender, MouseEventArgs e)
+        {
+            if(mouseDown)
+            {
+                this.Location = new Point((this.Location.X - lastLocation.X) + e.X, (this.Location.Y - lastLocation.Y) + e.Y);
+                this.Update();
+            }
+        }
+
+        private void Form1_MouseUp(object sender, MouseEventArgs e)
+        {
+            mouseDown = false;
         }
     }
 }
