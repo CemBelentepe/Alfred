@@ -561,7 +561,7 @@
             this.panelam.Controls.Add(this.label14);
             this.panelam.Controls.Add(this.label15);
             this.panelam.Controls.Add(this.label16);
-            this.panelam.Location = new System.Drawing.Point(361, 185);
+            this.panelam.Location = new System.Drawing.Point(364, 174);
             this.panelam.Name = "panelam";
             this.panelam.Size = new System.Drawing.Size(843, 586);
             this.panelam.TabIndex = 9;
@@ -677,12 +677,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.NavajoWhite;
             this.ClientSize = new System.Drawing.Size(1371, 782);
-            this.Controls.Add(this.label17);
             this.Controls.Add(this.panelny);
             this.Controls.Add(this.panelam);
-            this.Controls.Add(this.panelsonuc);
             this.Controls.Add(this.panelkb);
             this.Controls.Add(this.paneleo);
+            this.Controls.Add(this.panelsonuc);
+            this.Controls.Add(this.label17);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel5);
