@@ -85,11 +85,12 @@ namespace ProjeArayuz1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            panelsonuc.BringToFront();
-            int m2 = int.Parse(textBox6.Text);
-            String pos = textBox2.Text;
-            SearchInfo info = new SearchInfo(pos, (int)(m2 * 0.9), (int)(m2 * 1.1));
-            var results = esk.Search(info);
+            //panelsonuc.BringToFront();
+            //int m2 = int.Parse(textBox6.Text);
+            //String pos = textBox2.Text;
+            //SearchInfo info = new SearchInfo(pos, (int)(m2 * 0.9), (int)(m2 * 1.1));
+            SearchInfo info = new SearchInfo("İstanbul (Tümü)", "Kağıthane", "Çağlayan Mh.", 90, 100);
+            var results = esk.RentalSearch(info);
 
             foreach (var res in results)
             {
@@ -115,7 +116,6 @@ namespace ProjeArayuz1
                 this.Location = new Point((this.Location.X - lastLocation.X) + e.X, (this.Location.Y - lastLocation.Y) + e.Y);
                 this.Update();
             }
-            MessageBox.Show("Test");
         }
 
         private void Form1_MouseUp(object sender, MouseEventArgs e)
