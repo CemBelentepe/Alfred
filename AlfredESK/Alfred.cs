@@ -18,14 +18,16 @@ namespace AlfredESK
         public string neigh;
         public int areaMin;
         public int areaMax;
+        public string searchType;
 
-        public SearchInfo(string province,string district,string neigh, int areaMin, int areaMax)
+        public SearchInfo(string province,string district,string neigh, int areaMin, int areaMax,string searchType)
         {
             this.province = province;
             this.district = district;
             this.neigh = neigh;
             this.areaMin = areaMin;
             this.areaMax = areaMax;
+            this.searchType = searchType;
         }
     }
 
@@ -175,12 +177,15 @@ namespace AlfredESK
             this.searchSite = searchSite;
         }
 
-        public List<ResultItem> RentalSearch(SearchInfo info)
+        public List<ResultItem> Search(SearchInfo info)
         {
 
             List<ResultItem> resultList = new List<ResultItem>();
             SetDriver(); //Chrome için gerekli ayarları yapan fonksiyonun çağrılması.
-            driver.Navigate().GoToUrl("https://www.sahibinden.com/arama/detayli?category=16622"); //Emlak arama sayfasının açılması.
+            if(info.searchType.ToLower()=="rental")
+                driver.Navigate().GoToUrl("https://www.sahibinden.com/arama/detayli?category=16622"); //Kiralık Emlak arama sayfasının açılması.
+            else if (info.searchType.ToLower() == "sale")
+                driver.Navigate().GoToUrl("https://www.sahibinden.com/arama/detayli?category=16623"); //Satılık Emlak arama sayfasının açılması.
             SafeClick(FindElement_Safe(By.XPath("/html/body/div[4]/div[2]/div[1]/div/div[1]/div/div/form/div/div/table[1]/tbody/tr[1]/td[2]/ul/li[2]/a"))); //il kutucuğunun açılması
             SafeType(FindElement_Safe(By.XPath("/html/body/div[4]/div[2]/div[1]/div/div[1]/div/div/form/div/div/table[1]/tbody/tr[1]/td[2]/ul/li[2]/div/div[2]/input")), info.province);
             var elementColTemp = FindElements_Safe(By.XPath("/html/body/div[4]/div[2]/div[1]/div/div[1]/div/div/form/div/div/table[1]/tbody/tr[1]/td[2]/ul/li[2]/div/div[3]/div/div/ul/div/ul"));
@@ -254,7 +259,7 @@ namespace AlfredESK
                     resultList.Add(new ResultItem(url, title, area, price));
                 }
 
-                if (resultCount > 20)
+                if (resultCount > 50)
                 {
                     driver.ExecuteScript("window.scrollBy(0,6000)");//yine sayfanın en altına inmek gerekiyor.
                     Thread.Sleep(1000);

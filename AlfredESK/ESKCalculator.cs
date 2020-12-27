@@ -8,7 +8,7 @@ namespace AlfredESK
 {
     internal static class ESKCalculator
     {
-        public static double GetIndex(List<ResultItem> searchList)
+        public static double GetIndex(List<RentalResult> searchList)
         {
             return 0.0;
         }

@@ -89,10 +89,13 @@ namespace ProjeArayuz1
             //int m2 = int.Parse(textBox6.Text);
             //String pos = textBox2.Text;
             //SearchInfo info = new SearchInfo(pos, (int)(m2 * 0.9), (int)(m2 * 1.1));
-            SearchInfo info = new SearchInfo("İstanbul (Tümü)", "Kağıthane", "Çağlayan Mh.", 90, 100);
-            var results = esk.RentalSearch(info);
-
-            foreach (var res in results)
+            SearchInfo info = new SearchInfo("İstanbul (Tümü)", "Kağıthane", "Çağlayan Mh.", 90, 100,"rental");
+            var results = esk.Search(info);
+            //Results'dan gelenlerin fiyat ortalaması alınacak
+            //info = new SearchInfo("İstanbul (Tümü)", "Kağıthane", "Çağlayan Mh.", 90, 100, "sale");
+            results = esk.Search(info);
+            //Result'dan gelenler için ESK hesaplanacak.
+            //foreach (var res in results)
             {
                 // Tabloya ekle;
             }
